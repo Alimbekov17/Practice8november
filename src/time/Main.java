@@ -11,6 +11,7 @@ public class Main {
         Time time = new Time(random.nextInt(0, 23),
                 random.nextInt(0,59), random.nextInt(0,59));
         time.getTime();
+        System.out.println("Enter: ");
         String enter = scanner.next();
         if (Objects.equals(enter, "next")){
             time.nextSecond();
